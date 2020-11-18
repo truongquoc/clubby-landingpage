@@ -39,8 +39,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
-  width: 390px;
-  margin-left: 15px;
+  max-width: 390px;
 }
 .header-button {
   border-radius: 8px;
@@ -59,36 +58,22 @@
 .header-button:hover  {
   background-color: #5b5977;
 }
-.header-introduction-container {
-  display: flex;
-  position: absolute;
-  bottom: 7%;
-  left: 10%;
+
+@media (max-width: 575.98px) {
+  .header-welcome-text-container {
+    text-align: center;
+  }
+  .header-welcome-text {
+    font-size: 30px;
+  }
+  .header-brand {
+    font-size: 65px;
+  }
+
 }
-.header-introduction-image {
-  background-image: url('/public/images/header-phone.min.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 700px;
-  height: 700px;
-}
-.header-introduction {
-  width: 420px;
-}
-.header-introduction-title {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 59px;
-  color: #136FCA;
-}
-.header-introduction-subtitle {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 160%;
-  text-align: justify;
-  color: #000000;
-}
+
+@media (max-width: 767.98px) { }
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) { }
