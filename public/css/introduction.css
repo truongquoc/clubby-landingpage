@@ -1,0 +1,19 @@
+.introduction-container {
+  margin-top: -510px;
+}
+.introduction-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #136FCA;
+}
+.introduction-subtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: justify;
+}
