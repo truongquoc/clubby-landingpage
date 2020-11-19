@@ -1,0 +1,40 @@
+.origin-container {
+  padding-right: 12rem;
+  padding-left: 12rem;
+  background: url('/public/images/origin-background.min.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 80%;
+  background-size: 90%;
+  height: 1000px;
+}
+.origin-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #136FCA;
+}
+.origin-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #136FCA;
+}
+.origin-subcontent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+}
+.origin-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 50%;
+}
