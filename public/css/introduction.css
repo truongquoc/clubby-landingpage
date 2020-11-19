@@ -1,6 +1,9 @@
 .introduction-container {
   margin-top: -510px;
 }
+.introduction {
+  padding-top: 10rem;
+}
 .introduction-title {
   font-family: Montserrat;
   font-style: normal;
@@ -17,3 +20,18 @@
   line-height: 160%;
   text-align: justify;
 }
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .introduction {
+    padding-top: 1rem;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
