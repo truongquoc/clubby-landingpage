@@ -1,0 +1,32 @@
+.user-container {
+  padding-right: 12rem;
+  padding-left: 12rem;
+  background: url('/public/images/user-background.min.svg');
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  height: 1200px;
+}
+.user-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #136FCA;
+}
+.user-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #136FCA;
+}
+.user-subcontent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: justify;
+}
