@@ -1,25 +1,26 @@
-.introduction-container {
-  margin-top: -510px;
+.description-container {
+  margin-top: -90px;
   padding-right: 7rem;
-  padding-left: 5rem;
+  padding-left: 15rem;
 }
-.introduction {
-  padding-top: 10rem;
+.description-image {
+  width: 100%;
+  margin-top: -120px;
 }
-.introduction-title {
+.description-title {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 59px;
+  font-size: 24px;
+  line-height: 29px;
   color: #136FCA;
 }
-.introduction-subtitle {
+.description-subtitle {
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 160%;
+  line-height: 22px;
   text-align: justify;
 }
 /* Extra small devices (portrait phones, less than 576px) */
@@ -30,10 +31,18 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .introduction {
-    padding-top: 1rem;
-  }
+
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { }
+@media (max-width: 1199.98px) {
+  .description-container {
+    margin-top: 0px;
+    padding-right: 7rem;
+    padding-left: 5rem;
+  }
+  .description-image {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
