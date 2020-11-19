@@ -1,0 +1,55 @@
+.feature-container {
+  padding-right: 12rem;
+  padding-left: 12rem;
+  margin-top: -450px;
+  background: url('/public/images/feature-background.min.svg');
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  background-size: cover;
+}
+.feature-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #136FCA;
+}
+.feature-item {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 50px rgba(18, 111, 203, 0.13);
+  border-radius: 0px 40px;
+  padding: 3rem 1.5rem;
+  height: 400px;
+}
+.feature-phone-image {
+  margin-top: 10rem;
+}
+.feature-image {
+  display: block;
+  margin-bottom: 30px;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .feature-container {
+    margin-top: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .feature-container {
+    margin-top: 0px;
+    padding-right: 7rem;
+    padding-left: 5rem;
+  }
+}
