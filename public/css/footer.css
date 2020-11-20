@@ -1,0 +1,78 @@
+.footer-section {
+  background: url("../images/footer-background.svg");
+  background-size: cover;
+  padding-top: 59px;
+  color: "#ffffff";
+  font-family: Montserrat;
+  position: relative;
+}
+
+.footer-title {
+}
+.footer-title p {
+  line-height: 160%;
+}
+.form-group input {
+  font-size: 14px;
+}
+.join-button {
+  width: 100%;
+  background-color: #000000 !important;
+}
+.align-self {
+  align-self: center;
+  color: #836868;
+}
+.content-detail {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Montserrat;
+  letter-spacing: 0.02;
+  line-height: 22px;
+}
+.footer-icon p {
+  float: right;
+}
+.color-white {
+  color: #ffffff;
+}
+.footer-icon p span {
+  color: #ffffff;
+}
+.footer-connor {
+  position: absolute;
+  top: -100px;
+  left: -20px;
+}
+.footer-edge {
+  position: absolute;
+  top: 200px;
+  right: 0px;
+}
+.footer-content {
+  padding-left: 40px;
+  margin-top: 20px;
+  padding-right: 40px;
+}
+.footer-content i {
+  color: #ffffff;
+  font-size: 18px;
+}
+.footer-title h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+}
+.content h5 {
+  color: #ffffff;
+}
+.content h3 {
+  color: #ffffff;
+  font-weight: bold;
+}
+.footer-title p {
+  color: #dfdfdf;
+  font-size: 14px;
+  font-family: Montserrat;
+}
