@@ -2,7 +2,7 @@
   padding-right: 12rem;
   padding-left: 12rem;
   margin-top: -450px;
-  background: url('/public/images/feature-background.min.svg');
+  background: url('../images/feature-background.min.svg');
   height: 1200px;
   background-repeat: no-repeat;
   background-position-y: 30%;
