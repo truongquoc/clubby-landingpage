@@ -6,7 +6,7 @@
 .header-welcome-container {
   height: 1411px;
   width: 100%;
-  background-image: url('/public/images/header.min.svg');
+  background-image: url('../images/header.min.svg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;

@@ -1,7 +1,7 @@
 .origin-container {
   padding-right: 12rem;
   padding-left: 12rem;
-  background: url('/public/images/origin-background.min.svg');
+  background: url('../images/origin-background.min.svg');
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: 80%;
