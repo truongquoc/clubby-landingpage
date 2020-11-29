@@ -1,5 +1,5 @@
 .auth-section {
-  background-image: url("/public/images/auth.svg");
+  background-image: url("../images/auth.svg");
   /* width: 100%; */
   background-repeat: no-repeat;
   background-repeat: no-repeat; /* Do not repeat the image */
