@@ -6,6 +6,7 @@ class TeamMember {
     }
 }
 
+const $USER = document.getElementById('user');
 const $TEAM_HEADER_SLIDE = document.getElementById('slider-header');
 const $TEAM_SLIDER = document.getElementById('slider');
 const POSITIONS = {
@@ -42,7 +43,8 @@ const POSITIONS = {
         ]
     },
 }
-
+const OFFSET_USER_SECTION = $USER.offsetTop;
+console.log(OFFSET_USER_SECTION)
 function renderTeamPositions() {
     Object.keys(POSITIONS).forEach(key => {
         const node = document.createElement('div');
@@ -103,8 +105,24 @@ function bindingItemsToSlider(items) {
     })
 }
 
+function bindingEventScrollBehavior() {
+    window.addEventListener("scroll", function () {
+        if (document.documentElement.scrollTop + 400 > OFFSET_USER_SECTION) {
+            document.querySelectorAll(".animate-ltr").forEach(item => {
+                item.classList.add("animate-left-to-right");
+                item.classList.remove("animate-ltr");
+            })
+            document.querySelectorAll(".animate-rtl").forEach(item => {
+                item.classList.add("animate-right-to-left");
+                item.classList.remove("animate-rtl");
+            })
+        }
+    });
+}
+
 function main() {
     renderTeamPositions();
+    bindingEventScrollBehavior();
 }
 
 
