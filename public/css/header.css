@@ -4,17 +4,16 @@
   width: 100%;
 }
 .header-welcome-container {
-  height: 1411px;
+  height: 100%;
   width: 100%;
   background-image: url('../images/header.min.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
 }
 .header-welcome-text-container {
+  width: 100%;
   position: absolute;
   top: 20%;
-  left: 10%;
 }
 .header-welcome-text {
   font-family: Montserrat, sans-serif;
@@ -83,3 +82,11 @@
 @media (max-width: 991.98px) {}
 
 @media (max-width: 1199.98px) { }
+
+
+@keyframes smooth-right-to-left {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}

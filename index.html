@@ -32,26 +32,31 @@
 
 <body>
   <!-- Header section -->
-  <div class="header">
-    <div class="header-welcome-container">
-      <div class="header-welcome-text-container">
-        <p class="header-welcome-text">Chào mừng bạn đến với</p>
-        <p class="header-brand">CLUBBY Story</p>
-        <p class="header-description">
-          Clubby là một dự án sắp có trong tương lai dành cho sinh viên và các câu lạc bộ.
-          Đăng ký ngay để trở thành một trong những người đầu tiên sử dụng sản phẩm.
-        </p>
-        <button class="header-button">
-          <span class="header-button-text">Đăng ký ngay</span>
-        </button>
+  <div class="header" id="header">
+    <div class="container-fluid header-welcome-container">
+      <div class="row header-welcome-text-container">
+        <div class="col-12 col-lg-6" style="padding: 5rem;">
+          <p class="header-welcome-text">Chào mừng bạn đến với</p>
+          <p class="header-brand">CLUBBY Story</p>
+          <p class="header-description">
+            Clubby là một dự án sắp có trong tương lai dành cho sinh viên và các câu lạc bộ.
+            Đăng ký ngay để trở thành một trong những người đầu tiên sử dụng sản phẩm.
+          </p>
+          <button class="header-button">
+            <span class="header-button-text">Đăng ký ngay</span>
+          </button>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="./public/images/header-phone-1.min.svg" alt="phone" style="max-width: 100%;max-height: 100%;" class="d-block ml-auto mr-auto">
+        </div>
       </div>
     </div>
   </div>
   <!-- Introduction section -->
-  <div class="container-fluid introduction-container">
+  <div class="container-fluid introduction-container" id="introduction">
     <div class="row">
       <div class="col-12 col-lg-7">
-        <img src="./public/images/header-phone.min.svg" alt="phone" style="width: 100%;">
+        <img src="./public/images/header-phone-2.min.svg" alt="phone" style="width: 100%;">
       </div>
       <div class="col-12 col-lg-5 introduction">
         <p class="introduction-title">Clubby là gì? ____</p>
@@ -368,5 +373,10 @@
     </div>
   </section>
   </body>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
   <script src=" ./public/js/index.js"></script>
+  <script src="./public/js/header.js"></script>
 </html>
