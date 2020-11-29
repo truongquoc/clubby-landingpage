@@ -20,6 +20,10 @@
     padding: 0px !important;
 }
 
+.slider-header-child:hover {
+    color: #136FCA;
+}
+
 .slider-item-avatar {
     padding: 12px;
     width: 168px;
