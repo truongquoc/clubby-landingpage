@@ -5,6 +5,8 @@
 }
 .introduction {
   padding-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .introduction-title {
   font-family: Montserrat;
@@ -36,4 +38,10 @@
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { }
+@media (max-width: 1199.98px) {
+  .introduction-container {
+    margin-top: 0px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}

@@ -33,73 +33,50 @@
       integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
       crossorigin="anonymous"
     />
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootstrap 4 CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <!-- Google font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
-  <!-- Custom css -->
-  <link rel="stylesheet" href="./public/css/global.css">
-  <link rel="stylesheet" href="./public/css/header.css">
-  <link rel="stylesheet" href="./public/css/introduction.css">
-  <link rel="stylesheet" href="./public/css/description.css">
-  <link rel="stylesheet" href="./public/css/origin.css">
-  <link rel="stylesheet" href="./public/css/feature.css">
-  <link rel="stylesheet" href="./public/css/user.css">
-  <link rel="stylesheet" href="./public/css/team.css">
-  <link rel="stylesheet" href="./public/css/footer.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
-
-  <title>Clubby</title>
-</head>
+    <title>Clubby</title>
+  </head>
 
   <body>
     <!-- Header section -->
-    <div class="header">
-      <div class="header-welcome-container">
-        <div class="header-welcome-text-container">
-          <p class="header-welcome-text">Chào mừng bạn đến với</p>
-          <p class="header-brand">CLUBBY Story</p>
-          <p class="header-description">
-            Clubby là một dự án sắp có trong tương lai dành cho sinh viên và các
-            câu lạc bộ. Đăng ký ngay để trở thành một trong những người đầu tiên
-            sử dụng sản phẩm.
-          </p>
-          <button class="header-button">
-            <span class="header-button-text">Đăng ký ngay</span>
-          </button>
+    <div class="header" id="header">
+      <div class="container-fluid header-welcome-container">
+        <div class="row header-welcome-text-container">
+          <div class="col-12 col-lg-6" style="padding: 5rem;">
+            <p class="header-welcome-text">Chào mừng bạn đến với</p>
+            <p class="header-brand">CLUBBY Story</p>
+            <p class="header-description">
+              Clubby là một dự án sắp có trong tương lai dành cho sinh viên và các câu lạc bộ.
+              Đăng ký ngay để trở thành một trong những người đầu tiên sử dụng sản phẩm.
+            </p>
+            <button class="header-button">
+              <span class="header-button-text">Đăng ký ngay</span>
+            </button>
+          </div>
+          <div class="col-12 col-lg-6 position-relative">
+            <div class="position-absolute smooth-slide-image">
+              <img src="./public/images/header-phone-1.min.svg" alt="phone" style="max-width: 100%;max-height: 100%" class="d-block ml-auto mr-auto">
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <!-- Introduction section -->
-    <div class="container-fluid introduction-container">
+    <div class="container-fluid introduction-container" id="introduction">
       <div class="row">
         <div class="col-12 col-lg-7">
-          <img
-            src="./public/images/header-phone.min.svg"
-            alt="phone"
-            style="width: 100%"
-          />
+          <img src="./public/images/header-phone-2.min.svg" alt="phone" style="width: 100%;">
         </div>
         <div class="col-12 col-lg-5 introduction">
           <p class="introduction-title">Clubby là gì? ____</p>
           <p class="introduction-subtitle">
-            Clubby là nền tảng kết nối giữa các câu lạc bộ, các bạn học sinh và
-            sinh viên với mong muốn tìm hiểu tham gia vào một tổ chức phù hợp
-            với bản thân.
+            Clubby là nền tảng kết nối giữa các câu lạc bộ, các bạn học sinh và sinh viên với mong muốn tìm hiểu
+            tham gia vào một tổ chức phù hợp với bản thân.
           </p>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Description section -->
-  <div class="container-fluid description-container">
+    <!-- Description section -->
+    <div class="container-fluid description-container">
     <div class="row">
       <div class="col-12 col-xl-5 wrap-description">
         <p class="description-title">Thành viên</p>
@@ -299,30 +276,28 @@
         </div>
       </div>
     </div>
-  <!-- Team section -->
-  <div class="container-fluid team-container">
-    <!-- Title -->
-    <div class="row my-2">
-      <div class="col-12">
-        <p class="title">Đội ngũ thực hiện ____</p>
-      </div>
-    </div>
-    <!-- Slide -->
-    <div class="row mt-5 mx-5">
-      <div class="col-12">
-        <!-- Slide header -->
-        <div class="row slider-header" id="slider-header">
-        </div>
-        <!-- Slider -->
-        <div class="row slider" id="slider">
+    <!-- Team section -->
+    <div class="container-fluid team-container">
+      <!-- Title -->
+      <div class="row my-2">
+        <div class="col-12">
+          <p class="title">Đội ngũ thực hiện ____</p>
         </div>
       </div>
+      <!-- Slide -->
+      <div class="row mt-5 mx-5">
+        <div class="col-12">
+          <!-- Slide header -->
+          <div class="row slider-header" id="slider-header">
+          </div>
+          <!-- Slider -->
+          <div class="row slider" id="slider">
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-
     <!-- Login Section -->
     <section class="container-fluid auth-section">
-      <!-- <img src="/public/images/auth.svg" alt=""> -->
       <div class="row justify-content-center">
         <div class="col-12 col-md-7">
           <div class="mt-3 auth-title">
@@ -446,18 +421,6 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Save changes
-                  </button>
-                </div> -->
               </div>
             </div>
           </div>
@@ -477,7 +440,7 @@
       </div>
 
       
-       -->
+        -->
       <div class="footer-content row">
         <div class="col-12 col-sm-6 col-md-3 footer-content">
           <h1 class="footer-content-title">CLUBBY</h1>
@@ -643,5 +606,17 @@
       </div>
     </section>
   </body>
-  <script src="./public/js/index.js"></script>
+
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"
+  ></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+  crossorigin="anonymous"
+  ></script>
+  <script src=" ./public/js/index.js"></script>
+  <script src="./public/js/header.js"></script>
 </html>
