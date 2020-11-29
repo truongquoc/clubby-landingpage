@@ -1,0 +1,137 @@
+.auth-section {
+  background-image: url("/public/images/auth.svg");
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.auth-title h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.auth-title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+  max-height: 20px;
+  padding: 20px 100px;
+  color: #ffffff;
+}
+
+.auth-content-register {
+  /* padding: 28px 180px; */
+  width: 100%;
+  height: 71px;
+  border-radius: 4px;
+  background: #005398;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.auth-content-login {
+  /* padding: 28px 180px; */
+  width: 100%;
+  cursor: pointer;
+  height: 71px;
+  border-radius: 4px;
+  background: #ffffff;
+  font-family: Montserrat;
+  z-index: 999;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #005398;
+}
+.auth-content-app-right {
+  width: 100%;
+  cursor: pointer;
+  height: 71px;
+  border-radius: 4px;
+  background: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.popup-title {
+  background: #ffffff;
+  box-shadow: 0px 0px 140px rgba(19, 39, 58, 0.19);
+  padding: 20px 30px;
+}
+.modal-content {
+  width: 1000px;
+  left: -50%;
+  padding: 30px 80px;
+  background: #e5e5e5;
+  margin: 0 auto;
+}
+
+.popup-title p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+}
+
+.pop-up-content {
+  background: #f0f0f0;
+  padding: 30px 30px;
+  text-align: center;
+}
+.pop-up-content h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  color: #505050;
+}
+.join-button {
+  width: 80%;
+  background: #005398;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-group input {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  color: #000000;
+  opacity: 0.6;
+  border: none;
+}
