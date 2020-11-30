@@ -60,7 +60,7 @@
   opacity: 0;
 }
 .start-slide-1 {
-  animation: smooth-male-left-to-right 0.5s forwards;
+  animation: smooth-male-left-to-right 1s forwards;
 }
 @keyframes smooth-female-right-left {
   100% {
@@ -76,5 +76,5 @@
   opacity: 0;
 }
 .start-slide-2 {
-  animation: smooth-female-right-left 0.5s forwards;
+  animation: smooth-female-right-left 1s forwards;
 }
