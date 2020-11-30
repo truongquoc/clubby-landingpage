@@ -63,16 +63,10 @@
     <!-- Introduction section -->
     <div class="container-fluid introduction-container" id="introduction">
       <div class="row">
-        <div class="col-12 col-xl-7">
-          <div style="min-height: 420px;position: relative;">
-            <img src="./public/images/header-phone-2.min.svg" alt="phone" style="width: 100%;position: absolute;bottom:0;">
-            <img id="phone-piece-1" src="./public/images/header-phone-2-1.min.svg" alt="phone" class="smooth-slide-phone-1">
-            <img id="phone-piece-2" src="./public/images/header-phone-2-2.min.svg" alt="phone" class="smooth-slide-phone-2">
-            <!-- <img src="./public/images/header-phone-2-1.min.svg" alt="phone" style="width:55%;position: absolute;bottom:5%;left:-10%">
-            <img src="./public/images/header-phone-2-2.min.svg" alt="phone" style="width:20%;position: absolute;bottom:15%;right:20%;"> -->
-          </div>
+        <div class="col-12 col-lg-7">
+          <img src="./public/images/header-phone-2.min.svg" alt="phone" style="width: 100%;">
         </div>
-        <div class="col-12 col-xl-5 introduction">
+        <div class="col-12 col-lg-5 introduction">
           <p class="introduction-title">Clubby là gì? ____</p>
           <p class="introduction-subtitle">
             Clubby là nền tảng kết nối giữa các câu lạc bộ, các bạn học sinh và sinh viên với mong muốn tìm hiểu
@@ -168,65 +162,102 @@
     </div>
     <!-- Feature section -->
     <div class="container-fluid feature-container">
-      <div class="row">
-        <div class="col-12">
-          <p class="feature-title">Tính năng _____</p>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-12 col-lg-6 col-xl-4 mb-5">
-          <div class="feature-item">
-            <img
-              src="./public/images/feature-icon-1.min.svg"
-              class="feature-image"
-            />
-            <p class="origin-content">Kết nối các câu lạc bộ</p>
-            <p class="origin-subcontent">
-              Clubby tạo môi trường cho các câu lạc bộ giao lưu, kết nối dễ
-              dàng. để có thể trao đổi, hợp tác với nhau thông qua các sự kiện,
-              hoạt động chung.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 col-xl-4 mb-5">
-          <div class="feature-item">
-            <img
-              src="./public/images/feature-icon-2.min.svg"
-              class="feature-image"
-            />
-            <p class="origin-content">Kiểm soát, đánh giá thành viên</p>
-            <p class="origin-subcontent">
-              Clubby hiện thực hóa việc kiểm soát hoạt động, quản lý thành viên
-              một cách đơn giản và hiệu quả nhất.
-            </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 col-xl-4 mb-5">
-          <div class="feature-item">
-            <img
-              src="./public/images/feature-icon-3.min.svg"
-              class="feature-image"
-            />
-            <p class="origin-content">Dễ dàng đưa ra lựa chọn</p>
-            <p class="origin-subcontent">
-              Tại Clubby, chỉ với vài nhấp chuột, bạn đã có cho mình hầu hết các
-              thông tin cần thiết và hữu ích để tìm hiểu, đánh giá các câu lạc
-              bộ một cách dễ dàng.
-            </p>
-          </div>
-        </div>
-      </div>
       <div class="row feature-phone-image  justify-content-center">
         <div class="col-12 col-md-8 col-lg-8">
           <div class="feature-phone-image-block">
-            <img src="./public/images/rev-2-4-1 2.svg" alt="" class="feature-phone-image-block-1">
-            <img src="./public/images/rev-2-3-1 1.svg" alt="" class="feature-phone-image-block-2">
-            <img src="./public/images/rev-2-4-1 1.svg" alt="" class="feature-phone-image-block-3">
+            <img src="/public/images/rev-2-4-1 2.svg" alt="" class="feature-phone-image-block-1">
+            <img src="/public/images/rev-2-3-1 1.svg" alt="" class="feature-phone-image-block-2">
+            <img src="/public/images/rev-2-4-1 1.svg" alt="" class="feature-phone-image-block-3">
           </div>
-         
+        </div>
+      </div>
+
+      <div class="row mt-5 mx-5">
+        <div class="col-12">
+          <!-- Slide header -->
+          <div class="tabs">
+            
+            <input type="radio" id="tab1" name="tab-control" checked>
+            <input type="radio" id="tab2" name="tab-control">
+            <input type="radio" id="tab3" name="tab-control">  
+            <ul>
+              <li title="Features"><label for="tab1" role="button"><img src="/public/images/connect-icon.svg" alt=""><span>Kết nối các câu lạc bộ
+              </span></label></li>
+              <li title="Delivery Contents"><label for="tab2" role="button"><img src="/public/images/control-icon.svg" alt=""> <span>Kiểm soát, đánh giá thành viên</span></label></li>
+              <li title="Shipping"><label for="tab3" role="button"><img src="/public/images/choice-icon.svg" alt=""> <span>Dễ dàng đưa ra lựa chọn
+              </span></label></li> 
+            </ul>
+            
+            <div class="slider-feature"><div class="indicator"></div></div>
+            <div class="content">
+                 <section>
+                   <div class="row">
+                     <div class="col-12 col-md-8">
+                       <div class="row">
+                         <div class="col-12">
+                           <h1 style="text-align: left;">01.</h1>
+                         </div>
+                         <div class="col-12">
+                           <p>
+                            Clubby tạo môi trường cho các câu lạc bộ giao lưu, kết nối dễ dàng. để có thể trao đổi, hợp tác với nhau thông qua các sự kiện, hoạt động chung.
+                           </p>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-12 col-md-4">
+                       <img src="/public/images/phone-connect.svg" alt="">
+                     </div>
+                   </div>
+                 </section>
+                 <section>
+                  <div class="row">
+                    <div class="col-12 col-md-8">
+                      <div class="row">
+                        <div class="col-12">
+                          <h1 style="text-align: left;">01.</h1>
+                        </div>
+                        <div class="col-12">
+                          <p>
+                            Clubby hiện thực hóa việc kiểm soát hoạt động, quản lý thành viên một cách đơn giản và hiệu quả nhất.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <img src="/public/images/phone-control.svg" alt="">
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="row">
+                    <div class="col-12 col-md-8">
+                      <div class="row">
+                        <div class="col-12">
+                          <h1 style="text-align: left;">01.</h1>
+                        </div>
+                        <div class="col-12">
+                          <p>
+                            Tại Clubby, thành viên có thể tìm kiếm, đánh giá tổng quan về hoạt động, cách thức, quy mô, chuyên môn của từng câu lạc bộ một cách dễ dàng.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <img src="/public/images/choirce-phone.svg" alt="">
+                    </div>
+                  </div>
+                </section>
+            </div>
+          </div>
+          
+          <!-- Slider -->
+          <!-- <div class="row slider" id="slider">
+          </div> -->
         </div>
       </div>
     </div>
+
+    
     <!-- User section -->
     <div id="user" class="container-fluid user-container">
       <div class="animate-ltr">
