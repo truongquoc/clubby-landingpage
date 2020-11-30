@@ -17,6 +17,14 @@ button,button:focus {
   padding: 0;
 }
 
+.animate-ltr {
+  transform: translateX(-150%);
+}
+
+.animate-rtl {
+  transform: translateX(150%);
+}
+
 .animate-left-to-right {
   animation-name: animate-left-to-right;
   animation-duration: 1s;

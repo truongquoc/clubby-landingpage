@@ -9,6 +9,8 @@ class TeamMember {
 const $USER = document.getElementById('user');
 const $TEAM_HEADER_SLIDE = document.getElementById('slider-header');
 const $TEAM_SLIDER = document.getElementById('slider');
+const $TEAM_HEADER_SLIDE_CHILD = () => document.querySelectorAll('.slider-header-child');
+
 const POSITIONS = {
     CODE_TEAM: {
         key: 'Lập trình',
@@ -44,16 +46,27 @@ const POSITIONS = {
     },
 }
 const OFFSET_USER_SECTION = $USER.offsetTop;
-console.log(OFFSET_USER_SECTION)
+const ACTIVE_SLIDE_CHILD = "slider-header-child-active";
+const TIMEOUT_SLIDE_AUTO_TRANSFORM = 1000;
+const POSITION_KEYS = Object.keys(POSITIONS);
+
 function renderTeamPositions() {
     Object.keys(POSITIONS).forEach(key => {
         const node = document.createElement('div');
         node.className = 'col slider-header-child';
         node.setAttribute('attr-key', key);
-        const content = document.createTextNode(POSITIONS[key].key);
+        node.id = key;
+        const keyPosition = POSITIONS[key].key;
+        const content = document.createTextNode(keyPosition);
         node.appendChild(content);
 
+        if (key === "CODE_TEAM") node.classList.add(ACTIVE_SLIDE_CHILD);
+
         node.addEventListener('click', function (event) {
+            clearActiveOnSliderHeaderChild();
+            // Add color when being active
+            this.classList.add(ACTIVE_SLIDE_CHILD);
+
             const sliderDOM = document.getElementById('slider');
             if (sliderDOM.hasChildNodes()) {
                 sliderDOM.innerHTML = ''
@@ -120,9 +133,30 @@ function bindingEventScrollBehavior() {
     });
 }
 
+function clearActiveOnSliderHeaderChild() {
+    $TEAM_HEADER_SLIDE_CHILD().forEach(item => {
+        item.classList.remove(ACTIVE_SLIDE_CHILD);
+    })
+}
+
+function autoTransfromSlide() {
+    setTimeout(() => {
+        const currentKey = document.getElementsByClassName(ACTIVE_SLIDE_CHILD)[0].id;
+        POSITION_KEYS.forEach((item, index) => {
+            if (item === currentKey) {
+                let nextKey = index + 1;
+                if (nextKey > POSITION_KEYS.length - 1) nextKey = 0;
+                document.getElementById(POSITION_KEYS[nextKey]).click();
+            }
+        })
+        setTimeout(autoTransfromSlide, TIMEOUT_SLIDE_AUTO_TRANSFORM);
+    }, TIMEOUT_SLIDE_AUTO_TRANSFORM);
+}
+
 function main() {
     renderTeamPositions();
     bindingEventScrollBehavior();
+    autoTransfromSlide();
 }
 
 

@@ -24,6 +24,10 @@
     color: #136FCA;
 }
 
+.slider-header-child-active {
+    color: #136FCA;
+}
+
 .slider-item-avatar {
     padding: 12px;
     width: 168px;
