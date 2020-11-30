@@ -10,8 +10,10 @@ $(document).on('scroll', function() {
 })
 
 function checkIntroductionScroll() {
-  if ($(this).scrollTop() >= $('#introduction').position().top - 1000 && !passIntroduction) {
+  if ($(this).scrollTop() >= $('#introduction').position().top - 800 && !passIntroduction) {
     passIntroduction = true
     console.log('I have passed introduction');
+    $("#phone-piece-1").addClass("start-slide-1");
+    $("#phone-piece-2").addClass("start-slide-2");
   }
 }

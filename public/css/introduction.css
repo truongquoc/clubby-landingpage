@@ -1,5 +1,6 @@
 .introduction-container {
-  margin-top: -510px;
+  margin-top: -410px;
+  margin-bottom: 100px;
   padding-right: 7rem;
   padding-left: 5rem;
 }
@@ -44,4 +45,36 @@
     padding-right: 1rem;
     padding-left: 1rem;
   }
+}
+@keyframes smooth-male-left-to-right {
+  100% {
+    left:-10%;
+    opacity: 1;
+  }
+}
+.smooth-slide-phone-1 {
+  width:55%;
+  position: absolute;
+  bottom:5%;
+  left:-20%;
+  opacity: 0;
+}
+.start-slide-1 {
+  animation: smooth-male-left-to-right 0.5s forwards;
+}
+@keyframes smooth-female-right-left {
+  100% {
+    right: 20%;
+    opacity: 1;
+  }
+}
+.smooth-slide-phone-2 {
+  width:20%;
+  position: absolute;
+  bottom:15%;
+  right: 0;
+  opacity: 0;
+}
+.start-slide-2 {
+  animation: smooth-female-right-left 0.5s forwards;
 }
