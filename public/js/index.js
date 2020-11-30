@@ -47,7 +47,7 @@ const POSITIONS = {
 }
 const OFFSET_USER_SECTION = $USER.offsetTop;
 const ACTIVE_SLIDE_CHILD = "slider-header-child-active";
-const TIMEOUT_SLIDE_AUTO_TRANSFORM = 1000;
+const TIMEOUT_SLIDE_AUTO_TRANSFORM = 2000;
 const POSITION_KEYS = Object.keys(POSITIONS);
 
 function renderTeamPositions() {
@@ -112,8 +112,11 @@ function bindingItemsToSlider(items) {
             </div>
     `
         const wrapperNode = document.createElement('div');
-        wrapperNode.classList = 'col slider-item'
+
+        wrapperNode.classList = 'animate-left-to-right col slider-item'
         wrapperNode.innerHTML = template;
+
+
         $TEAM_SLIDER.appendChild(wrapperNode);
     })
 }

@@ -40,6 +40,12 @@
 .slider {
     margin-top: 6rem;
 }
+
+.slider-wrapper {
+    animation-name: animate-left-to-right;
+    animation-duration: 1s;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .team-container {
