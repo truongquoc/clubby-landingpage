@@ -27,16 +27,17 @@
   margin-top: 10rem;
 }
 .feature-phone-image-block {
-  background: url("/public/images/phone.svg");
+  background: url("../images/phone.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: auto;
+  background-size: contain;
+  width: 100%;
   background-position: center;
   position: relative;
   height: 400px;
   z-index: -4;
   /* height: 300px; */
 }
+
 .feature-phone-image-block-3 {
   position: absolute;
   top: -5%;
