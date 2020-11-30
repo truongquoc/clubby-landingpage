@@ -103,6 +103,21 @@
 }
 .back-to-top-button {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(180deg, #6C9BFF 0%, #356DE4 0.01%, #98C1FF 100%);
+  width: 57px;
+  height: 57px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.back-to-top-button img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -12.5px;
+  margin-left: -12.5px;
 }
