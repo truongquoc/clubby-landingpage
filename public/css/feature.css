@@ -2,7 +2,7 @@
   padding-right: 12rem;
   padding-left: 12rem;
   margin-top: -450px;
-  background: url('../images/feature-background.min.svg');
+  background: url("../images/feature-background.min.svg");
   height: 1200px;
   background-repeat: no-repeat;
   background-position-y: 30%;
@@ -14,10 +14,10 @@
   font-weight: bold;
   font-size: 48px;
   line-height: 59px;
-  color: #136FCA;
+  color: #136fca;
 }
 .feature-item {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 50px rgba(18, 111, 203, 0.13);
   border-radius: 0px 40px;
   padding: 3rem 1.5rem;
@@ -25,6 +25,41 @@
 }
 .feature-phone-image {
   margin-top: 10rem;
+}
+.feature-phone-image-block {
+  background: url("/public/images/phone.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  background-position: center;
+  position: relative;
+  height: 400px;
+  z-index: -4;
+  /* height: 300px; */
+}
+.feature-phone-image-block-3 {
+  position: absolute;
+  top: -5%;
+  left: 15%;
+  z-index: -3;
+  transform: translateY(-50px);
+  animation: mover1 2s infinite alternate;
+}
+.feature-phone-image-block-2 {
+  position: absolute;
+  top: -10%;
+  left: 12%;
+  z-index: -2;
+  transform: translateY(-50px);
+  animation: mover2 2s 0.25s infinite alternate;
+}
+.feature-phone-image-block-1 {
+  position: absolute;
+  top: -15%;
+  left: 10%;
+  z-index: -1;
+  transform: translateY(-50px);
+  animation: mover3 2s 0.75s infinite alternate;
 }
 .feature-image {
   display: block;
@@ -39,10 +74,12 @@
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { }
+@media (max-width: 767.98px) {
+}
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { }
+@media (max-width: 991.98px) {
+}
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
@@ -51,5 +88,41 @@
     padding-right: 7rem;
     padding-left: 5rem;
     height: 1900px;
+  }
+}
+
+@keyframes mover1 {
+  0% {
+    transform: translateY(-60px);
+  }
+  25% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes mover2 {
+  0% {
+    transform: translateY(-70px);
+  }
+  25% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes mover3 {
+  0% {
+    transform: translateY(-80px);
+  }
+  25% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(-30px);
   }
 }
