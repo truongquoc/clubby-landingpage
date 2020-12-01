@@ -117,3 +117,12 @@
   font-size: 14px;
   font-family: Montserrat;
 }
+
+@media (min-width: 576px) {
+  .about-us-detail {
+    text-align: center;
+  }
+  .about-us h5 {
+    text-align: center;
+  }
+}

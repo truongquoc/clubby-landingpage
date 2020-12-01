@@ -344,12 +344,28 @@ body h1 {
   }
 }
 
+.feature-bottom {
+  /* background: url("../images/bottom.svg"); */
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.feature-bottom-background {
+  background: url("../images/bottom.svg");
+  height: 1200px;
+  top: -300px;
+  width: 100%;
+  background-size: cover;
+  z-index: -3;
+  position: absolute;
+}
 .feature-container {
   padding-right: 12rem;
   padding-left: 12rem;
   margin-top: -450px;
-  background: url("../images/feature-background.min.svg");
-  height: 1200px;
+  /* background: url("../images/feature-background.min.svg"); */
+  /* height: 1200px; */
   background-repeat: no-repeat;
   background-position-y: 30%;
   background-size: cover;
