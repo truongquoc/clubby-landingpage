@@ -53,7 +53,7 @@
             </button>
           </div>
           <div class="col-12 col-lg-6 position-relative">
-            <div class="position-absolute smooth-slide-image">
+            <div class="position-absolute smooth-slide-image header-image-center">
               <img src="./public/images/header-phone-1.min.svg" alt="phone" style="max-width: 100%;max-height: 100%" class="d-block ml-auto mr-auto">
             </div>
           </div>
@@ -77,51 +77,72 @@
     </div>
     <!-- Description section -->
     <div class="container-fluid description-container">
-    <div class="row">
-      <div class="col-12 col-xl-5 wrap-description">
-        <p class="description-title">Thành viên</p>
-        <p class="description-subtitle">
-          Là nơi giúp các câu lạc bộ, đội, nhóm quảng bá, truyền thông về hình ảnh,
-          định vị những nét đặc trưng riêng biệt, thu hút các thành viên mới gia nhập vào đại gia đình của mình.
-        </p>
-        <p class="description-title">Các câu lạc bộ đội nhóm</p>
-        <p class="description-subtitle">Giúp cho các câu lạc bộ quản lý thành viên một cách hiệu quả thông qua ứng dụng
-          xếp lịch, đánh giá.</p>
-        <p class="description-subtitle">
-          Tại Clubby, thành viên có thể tìm kiếm, đánh giá tổng quan về hoạt động,
-          cách thức, quy mô, chuyên môn của từng câu lạc bộ một cách dễ dàng.
-        </p>
-      </div>
-      <div class="col-12 col-xl-7">
-       <divc class="wrap-circle">
-          <img class="wrap-calender" src="./public/images/description-section/eclipse84.min.svg" alt="">
-         <img class="calender" src="./public/images/description-section/group413.min.svg" alt="">
-         <img class="wrap-share" src="./public/images/description-section/eclipse87.min.svg" alt="">
-         <img class="share" src="./public/images/description-section/group411.min.svg" alt="">
-         <img class="wrap-clock" src="./public/images/description-section/eclipse81.min.svg" alt="">
-         <img class="clock" src="./public/images/description-section/group415.min.svg" alt="">
-         <img class="wrap-heart" src="./public/images/description-section/eclipse86.min.svg" alt="">
-         <img class="heart" src="./public/images/description-section/group420.min.svg" alt="">
-         <img class="wrap-user" src="./public/images/description-section/eclipse83.min.svg" alt="">
-         <img class="user" src="./public/images/description-section/user.min.svg" alt="">
-         <img class="event-cmt" src="./public/images/description-section/event-cmt.min.svg" alt="">
-         <img class="event-text" src="./public/images/description-section/event-text.min.svg" alt="">
-         <img class="calendar-cmt" src="./public/images/description-section/calendar-cmt.min.svg" alt="">
-         <img class="calendar-text" src="./public/images/description-section/calendar-text.min.svg" alt="">
-         <img class="manage-cmt" src="./public/images/description-section/manage-cmt.min.svg" alt="">
-         <img class="manage-text" src="./public/images/description-section/manage-text.min.svg" alt="">
-         <img class="connect-cmt" src="./public/images/description-section/connect-cmt.min.svg" alt="">
-         <img class="connect-text" src="./public/images/description-section/connect-text.min.svg" alt="">
-         <img class="share-cmt" src="./public/images/description-section/share-cmt.min.svg" alt="">
-         <img class="share-text" src="./public/images/description-section/share-text.min.svg" alt="">
-         
-         <div class="wrap-circle-inside">
-          <div class="circle">
-            <img class="person" src="./public/images/description-section/person.min.svg" alt="">
+      <div class="row">
+        <div class="col-12 col-xl-5 wrap-description">
+          <p class="description-title">Thành viên</p>
+          <p class="description-subtitle">
+            Là nơi giúp các câu lạc bộ, đội, nhóm quảng bá, truyền thông về hình ảnh,
+            định vị những nét đặc trưng riêng biệt, thu hút các thành viên mới gia nhập vào đại gia đình của mình.
+          </p>
+          <p class="description-title">Các câu lạc bộ đội nhóm</p>
+          <p class="description-subtitle">Giúp cho các câu lạc bộ quản lý thành viên một cách hiệu quả thông qua ứng dụng
+            xếp lịch, đánh giá.</p>
+          <p class="description-subtitle">
+            Tại Clubby, thành viên có thể tìm kiếm, đánh giá tổng quan về hoạt động,
+            cách thức, quy mô, chuyên môn của từng câu lạc bộ một cách dễ dàng.
+          </p>
+        </div>
+        <div class="col-12 col-xl-7">
+        <div class="wrap-circle">
+          <!-- calendar -->
+          <img id="event-wrap-1" class="wrap-calender" src="./public/images/description-section/eclipse84.min.svg" alt="">
+          <img id="event-content-1" class="calender" src="./public/images/description-section/group413.min.svg" alt="">
+          <!-- clock -->
+          <img id="event-wrap-2" class="wrap-clock" src="./public/images/description-section/eclipse81.min.svg" alt="">
+          <img id="event-content-2" class="clock" src="./public/images/description-section/group415.min.svg" alt="">
+          <!-- user -->
+          <img id="event-wrap-3" class="wrap-user" src="./public/images/description-section/eclipse83.min.svg" alt="">
+          <img id="event-content-3" class="user" src="./public/images/description-section/user.min.svg" alt="">
+          <!-- share -->
+          <img id="event-wrap-4" class="wrap-share" src="./public/images/description-section/eclipse87.min.svg" alt="">
+          <img id="event-content-4" class="share" src="./public/images/description-section/group411.min.svg" alt="">
+          <!-- heart -->
+          <img id="event-wrap-5" class="wrap-heart" src="./public/images/description-section/eclipse86.min.svg" alt="">
+          <img id="event-content-5" class="heart" src="./public/images/description-section/group420.min.svg" alt="">
+          <!-- Text event -->
+          <div id="event-1" class="event-cmt">
+            <img src="./public/images/description-section/manage-cmt.min.svg" alt="">
+            <p style="position: absolute; top: 10%;text-align: center;width: 100%;color: #fff">Sự kiện</p>
           </div>
-         </div>
-         <!-- <img src="./public/images/description.min.svg" class="description-image" alt="phone"> -->
-       </div>
+          <!-- Text calendar -->
+          <div id="event-2" class="calendar-cmt">
+            <img src="./public/images/description-section/calendar-cmt.min.svg" alt="">
+            <p style="position: absolute; top: 10%;text-align: center;width: 100%;color: #fff">Lên lịch</p>
+          </div>
+          <!-- Text manage -->
+          <div id="event-3" class="manage-cmt">
+            <img src="./public/images/description-section/manage-cmt.min.svg" alt="">
+            <p style="position: absolute; top: 10%;text-align: center;width: 100%;color: #fff">Quản lý</p>
+          </div>
+          <!-- Text connect -->
+          <div id="event-4" class="connect-cmt">
+            <img src="./public/images/description-section/connect-cmt.min.svg" alt="">
+            <p style="position: absolute; top: 10%;text-align: center;width: 100%;color: #fff">Kết nối</p>
+          </div>
+          <!-- Text share -->
+          <div id="event-5" class="share-cmt">
+            <img src="./public/images/description-section/share-cmt.min.svg" alt="">
+            <p style="position: absolute; top: 10%;text-align: center;width: 100%;color: #fff">Chia sẻ</p>
+          </div>
+          
+          <div class="wrap-circle-inside scale-animation">
+            <div class="circle">
+              <img class="person" src="./public/images/description-section/person.min.svg" alt="">
+            </div>
+          </div>
+          <!-- <img src="./public/images/description.min.svg" class="description-image" alt="phone"> -->
+        </div>
+        </div>
       </div>
     </div>
     <!-- Origin section -->
@@ -643,6 +664,10 @@
         </div>
       </div>
     </section>
+    <!-- Back to top button -->
+    <div class="back-to-top-button" id="back-to-top-button">
+      <img src="./public/images/arrow.svg">
+    </div>
   </body>
 
   <script
@@ -657,4 +682,5 @@
   ></script>
   <script src=" ./public/js/index.js"></script>
   <script src="./public/js/header.js"></script>
+  <script src="./public/js/rotate.js"></script>
 </html>

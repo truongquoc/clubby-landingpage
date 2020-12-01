@@ -80,15 +80,44 @@
 .smooth-slide-image {
   left: 100px;
   opacity: 0;
-  animation: smooth-right-to-left 0.5s forwards;
+  animation: smooth-right-to-left 1s forwards;
 }
 @media (max-width: 767.98px) { }
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+  .header {
+    margin-bottom: 200px;
+  }
+  .header-image-center {
+    left: 0;
+    right: 0;
+    margin: auto
+  }
+}
 
 @media (max-width: 1199.98px) { }
 
 
 @keyframes smooth-right-to-left {
   100% {left: 0px; opacity: 1;}
+}
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(180deg, #6C9BFF 0%, #356DE4 0.01%, #98C1FF 100%);
+  width: 57px;
+  height: 57px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.back-to-top-button img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  margin-top: -12.5px;
+  margin-left: -12.5px;
 }

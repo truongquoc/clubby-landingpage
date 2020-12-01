@@ -17,3 +17,6 @@ function checkIntroductionScroll() {
     $("#phone-piece-2").addClass("start-slide-2");
   }
 }
+$('#back-to-top-button').on('click', () => {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+})
