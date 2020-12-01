@@ -63,16 +63,6 @@
   padding-left: 25px;
 }
 
-.wrap-calender,
-.wrap-share,
-.share,
-.calender,
-.wrap-heart,
-.heart,
-.wrap-clock,
-.clock,
-.wrap-user,
-.user,
 .event-cmt,
 .manage-cmt,
 .connect-cmt,
@@ -85,7 +75,18 @@
 .connect-text {
   position: absolute;
 }
-
+.wrap-calender,
+.wrap-share,
+.share,
+.calender,
+.wrap-heart,
+.heart,
+.wrap-clock,
+.clock,
+.wrap-user,
+.user {
+  position: absolute;
+}
 .wrap-calender {
   top: -110px;
   right: 0px;
@@ -413,9 +414,30 @@
     left: -40px;
   }
 }
-
+.rotate {
+  animation: rotate-center 10s linear infinite;
+}
+.counter-rotate {
+  animation: counter-rotate-center 10s linear infinite;
+}
 @media (max-width: 575.98px) {
   .wrap-circle {
     margin-left: 3%;
+  }
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes counter-rotate-center {
+  0% {
+    transform: rotate(359deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
